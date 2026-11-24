@@ -12,12 +12,10 @@ a:hover { color: var(--slate); }
 a:focus-visible { outline: 2px solid var(--blue); outline-offset: 4px; }
 .skip { position: absolute; top: -5rem; background: white; padding: .5rem; }
 .skip:focus { top: .5rem; z-index: 1; }
-header, footer { background: var(--lavender); }
-header { border-bottom: 1px solid #ded7ed; }
+footer { background: var(--lavender); }
 .bar, .frame { width: min(100% - 3rem, 68rem); margin-inline: auto; }
 .bar { display: flex; align-items: center; justify-content: space-between; gap: .75rem 2rem; padding-block: .85rem; flex-wrap: wrap; }
-.brand, h1, h2, h3, .name { font-family: Georgia, serif; }
-.brand { font-weight: bold; font-size: 1.3rem; color: var(--slate); text-decoration: none; }
+h1, h2, h3, .name { font-family: Georgia, serif; }
 .frame { flex: 1; display: grid; grid-template-columns: 13.25rem minmax(0, 1fr); gap: 3.5rem; padding-block: 3rem 4rem; }
 aside { border-right: 1px solid #e9e5f2; padding-right: 1.2rem; font-size: .94rem; }
 aside p { margin: .45rem 0; }
@@ -27,7 +25,7 @@ aside p { margin: .45rem 0; }
 .location, .meta, time { color: #55576b; }
 .profile-links { list-style: none; padding: 0; display: grid; gap: .35rem; }
 h1, h2, h3 { line-height: 1.2; }
-h1 { font-size: clamp(2.25rem, 5vw, 3.4rem); margin: 0 0 1.15rem; }
+h1 { font-size: clamp(1.65rem, 3.5vw, 2.25rem); margin: 0 0 1.15rem; }
 h1::after, h2::after { content: ""; display: block; width: 2.4rem; height: 2px; background: var(--purple); margin-top: .55rem; }
 h2 { margin: 2rem 0 .9rem; font-size: 1.65rem; }
 h3 { margin: 0 0 .45rem; font-size: 1.2rem; }
